@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <form action="#" method="post">
+
+<a href="index.html">index</a>
+
+        <p>
+            <label for="fname">FIRST NAME</label>
+            <input type="text" id="fname" name="fname" placeholder="(max 30 characters a-z and A-Z)">
+        </p>
+        <p>
+            <label for="lname">LAST NAME</label>
+            <input type="text" id="lname" name="lname" placeholder="(max 30 characters a-z and A-Z)">
+        </p>
+        <p>
+            <label>DATE OF BIRTH</label>
+            <select name="day">
+                <option>Day:</option>
+            </select>
+            <select name="month">
+                <option>Month:</option>
+            </select>
+            <select name="year">
+                <option>Year:</option>
+            </select>
+        </p>
+        <p>
+            <label for="email">EMAIL ID</label>
+            <input type="email" id="email" name="email">
+        </p>
+        <p>
+            <label for="mobile">MOBILE NUMBER</label>
+            <input type="text" id="mobile" name="mobile" placeholder="(10 digit number)" maxlength="10">
+        </p>
+        <p>
+            <label>GENDER</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </p>
+        <p>
+            <label for="address">ADDRESS</label><br>
+            <textarea id="address" name="address"></textarea>
+        </p>
+        <p>
+            <label for="city">CITY</label>
+            <input type="text" id="city" name="city" placeholder="(max 30 characters a-z and A-Z)">
+        </p>
+        <p>
+            <label for="pincode">PIN CODE</label>
+            <input type="text" id="pincode" name="pincode" placeholder="(6 digit number)" maxlength="6">
+        </p>
+        <p>
+            <label for="state">STATE</label>
+            <input type="text" id="state" name="state" placeholder="(max 30 characters a-z and A-Z)">
+        </p>
+        <p>
+            <label for="country">COUNTRY</label>
+            <input type="text" id="country" name="country" value="Pakistan" readonly>
+        </p>
+        <p>
+            <label>HOBBIES</label>
+            <input type="checkbox" id="drawing" name="hobbies" value="drawing">
+            <label for="drawing">Drawing</label>
+            <input type="checkbox" id="singing" name="hobbies" value="singing">
+            <label for="singing">Singing</label>
+            <input type="checkbox" id="dancing" name="hobbies" value="dancing">
+            <label for="dancing">Dancing</label>
+            <input type="checkbox" id="sketching" name="hobbies" value="sketching">
+            <label for="sketching">Sketching</label>
+            <input type="checkbox" id="others" name="hobbies" value="others">
+            <label for="others">Others</label>
+        </p>
+
+
+        <h2>QUALIFICATION</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Sl.No.</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text" name="board_x" placeholder="(10 char max)"></td>
+                    <td><input type="text" name="percentage_x" placeholder="(upto 2 decimal)"></td>
+                    <td><input type="text" name="year_x"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td><input type="text" name="board_xii"></td>
+                    <td><input type="text" name="percentage_xii"></td>
+                    <td><input type="text" name="year_xii"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text" name="board_grad"></td>
+                    <td><input type="text" name="percentage_grad"></td>
+                    <td><input type="text" name="year_grad"></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text" name="board_masters"></td>
+                    <td><input type="text" name="percentage_masters"></td>
+                    <td><input type="text" name="year_masters"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>COURSES APPLIED FOR</h2>
+        <p>
+            <input type="radio" id="bca" name="course" value="bca">
+            <label for="bca">BCA</label>
+            <input type="radio" id="bcom" name="course" value="bcom">
+            <label for="bcom">B.Com</label>
+            <input type="radio" id="bsc" name="course" value="bsc">
+            <label for="bsc">B.Sc</label>
+            <input type="radio" id="ba" name="course" value="ba">
+            <label for="ba">B.A</label>
+        </p>
+        
+        <p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </p>
+    </form>
+
+
+
+
+
+
+
+</body>
+</html>
